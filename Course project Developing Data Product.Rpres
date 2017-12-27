@@ -1,0 +1,41 @@
+Course project: Developing Data Product
+========================================================
+author: Espen Svendsen 
+date: 2017-12-27
+autosize: true
+
+Overview
+========================================================
+
+This presentation is the course project of [Developing Data Products](https://www.coursera.org/learn/data-products/home/info).
+
+The data product developed in this course project is a Diamond Purchase Assistant
+
+- Application host site: https://espensvendsen.shinyapps.io/shiny/
+- Source code: https://github.com/espensvendsen/slidifyDataProduct
+
+The Diamond Purchase Assistant
+========================================================
+
+Finally it's here: The *Diamond Purchase Assistant* uses a large data set of historical to aid your purchases! 
+
+The set consists of prices of 50,000 round cut diamonds
+
+
+```{r, echo=FALSE}
+library(ggplot2)
+summary(diamonds)
+```
+
+Explore the predicted price
+========================================================
+
+- Select your carat and observe the predicted price (by means of linear regression)
+- Drill and filter by quality of the cut 
+
+![](Screenshot_Prediction.png)
+
+Assert your risk taking by reviewing the residuals!
+========================================================
+
+![](Screenshot_Residuals.png)
