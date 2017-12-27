@@ -1,0 +1,2 @@
+# slidifyDataProduct
+Developing data products
