@@ -31,7 +31,7 @@ shinyUI(fluidPage(
                   tabPanel("Residuals", 
                            br(), 
                            plotOutput("plot2")),
-                  tabPanel("About", 
+                  tabPanel("Getting started", 
                            includeMarkdown("about.md"))
       )
     )
